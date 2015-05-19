@@ -38,18 +38,20 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <div class="container">  
-      <div class="row profile">
-          <div class="col-md-3">
+    
+        <div class="container">
+            <div class="navbar-header">
+                <a id="menu-toggle" href="#" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                </a>
+            </div>
             
             <!-- Parte perfil menu lateral -->
-            <div class="profile-sidebar">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
+            <div id="sidebar-wrapper" class="sidebar-toggle">
+            <!--<div class="profile-sidebar">-->
                    <div class="profile-userpic">
                     <img src="img/Thumbs/foto-perfil.png" class="img-responsive"/>
                     </div>
@@ -62,42 +64,53 @@
                       </div>
                     </div>
             <!-- Fim do perfil -->
-            <div class="profile-usermenu">
-              <div id="navbar" class="navbar-collapse collapse">
-                  <ul class="nav">
-                        <li class="active"> 
-                        <a href="index.html">
-                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-                        HOME</a> 
-                        </li>
-                        <li> 
-                        <a href="sobre.html">
-                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                        SOBRE</a>
-                        </li>
-                        <li> 
-                        <a href="projetos.html">
-                        <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-                        PROJETOS</a>
-                        </li>
-                        <li> 
-                        <a href="contato.html">
-                        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                        CONTATO</a>
-                        </li>
+                      <ul id="navbar" class="sidebar-nav nav">
+                            <li class="active"> 
+                            <a href="index.html">
+                            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                            HOME</a> 
+                            </li>
+                            <li> 
+                            <a href="sobre.html">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            SOBRE</a>
+                            </li>
+                            <li> 
+                            <a href="projetos.html">
+                            <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                            PROJETOS</a>
+                            </li>
+                            <li> 
+                            <a href="contato.html">
+                            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                            CONTATO</a>
+                            </li>
+                      </ul>
+                 <ul id="social-icons">
+                    <li>
+                        <a href="https://www.facebook.com/caio.vinicius.71465" target="_blank">
+                            <img src="img/Thumbs/facebook-logo.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Caio07" target="_blank">
+                            <img src="img/Thumbs/github-logo.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://br.linkedin.com/in/caiovgo" target="_blank">
+                            <img src="img/Thumbs/linkedin-logo.png"/>
+                        </a>
+                    </li>
                   </ul>
                 </div>
-              </div><!--Fim menu de navegação-->
-            </div>
         </div>
-      
 
-        <div class="col-md-8">
+
+        <div class="col-md-9 col-md-push-3">
           <div id="conteudocentral" class="profile-content">
-            <section id="#home">
             <h1>Home</h1>
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            </section>
           </div>
         </div>
       </div>
