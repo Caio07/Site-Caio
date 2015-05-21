@@ -19,6 +19,10 @@ p,ul, .author-function {
   font-family: 'Bree Serif', serif;
 
 }
+img{
+  margin-top: 30px;
+
+}
 
 
 #sidebar-wrapper {
@@ -42,10 +46,6 @@ p,ul, .author-function {
   border-radius: 50% !important;
 }
 
-.profile-usertitle {
-  text-align: center;
-  margin-top: 20px;
-}
 .profile-author {
   text-align: center;
   margin-top: 20px;
@@ -53,16 +53,14 @@ p,ul, .author-function {
 
 .author {
   color: #fff;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 20px;
   margin-bottom: 7px;
 }
 
 .author-function {
   text-transform: uppercase;
   color: #fff;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 16px;
   margin-bottom: 15px;
 }
     
@@ -94,18 +92,15 @@ p,ul, .author-function {
 }
 
 .sidebar-nav li a {
-  color: #93a3b5;
-  font-size: 14px;
+  color: #fff;
+  font-size: 16px;
   font-weight: 400;
+
 }
 
-.sidebar-nav li a i {
-  margin-right: 8px;
-  font-size: 14px;
-}
 
 .sidebar-nav li a:hover {
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(255,255,255,0.1);
   color: #5b9bd1;
 }
 
@@ -114,9 +109,9 @@ p,ul, .author-function {
 }
 
 .sidebar-nav li.active a {
-  color: #5b9bd1;
+  color: #8cbee0;
   background-color: rgba(255,255,255,0.3);
-  border-left: 2px solid #5b9bd1;
+  border-left: 2px solid #8cbee0;
   margin-left: -2px;
 }
 
@@ -127,7 +122,8 @@ p,ul, .author-function {
   #social-icons li{
 
   display: inline-block;
- }
+}
+
 
 /* Profile Content */
 .profile-content {
